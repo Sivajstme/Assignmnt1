@@ -10,11 +10,11 @@ const CharComponent = (props) =>{
         margin:'16px',
         border : '1px solid black'
     }
-
+    
     return(
-        <div style={inlineStyle}>
+        <div style={inlineStyle} onClick={props.Clicked}>
             
-            <p>{props.componenet}</p>
+            <p >{props.componenet}</p>
 
         </div>
     )
